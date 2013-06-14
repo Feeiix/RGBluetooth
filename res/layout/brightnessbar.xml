@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2E2E2E" >
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="18dp"
+        android:background="#33B5E5" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:text="Brightness"
+        android:textAppearance="?android:attr/textAppearanceLargeInverse"
+        android:textColorLink="@android:color/white" />
+
+    <SeekBar
+        android:id="@+id/brightnessbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingTop="35dp"
+        android:progress="100" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/brightnessbar"
+        android:layout_marginTop="15dp"
+        android:background="#33B5E5" />
+
+    </RelativeLayout>
